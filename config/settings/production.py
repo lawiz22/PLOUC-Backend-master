@@ -10,7 +10,7 @@ INTERNAL_IPS = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'vataxia',
+        'NAME': 'plouc',
         'USER': 'lawiz',
         'PASSWORD':'Test123DH',
         'HOST':'mysql.lawiz.org',
@@ -22,7 +22,7 @@ DATABASES = {
 }
 
 STATIC_URL = '/'
-STATIC_ROOT = os.path.join(BASE_DIR, '/home/lawiz22/lespornstash.com/public')
+STATIC_ROOT = os.path.join(BASE_DIR, '/home/lawiz22/plouc.live/public')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, '../public/media/')

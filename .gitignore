@@ -1,3 +1,9 @@
 
 config/settings/production.py
 config/settings/production.py
+v1/music/migrations/0003_song_artist_id.py
+v1/music/migrations/__pycache__/0003_song_artist_id.cpython-36.pyc
+v1/music/models/__pycache__/song.cpython-36.pyc
+v1/music/serializers/__pycache__/album.cpython-36.pyc
+v1/music/serializers/__pycache__/artist.cpython-36.pyc
+*.pyc

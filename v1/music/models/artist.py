@@ -7,6 +7,7 @@ class Artist(CreatedModified):
     artist = models.CharField(max_length=250)
     artist_image = models.ImageField(default='')
     is_favorite = models.BooleanField(default=False)
+    artist_desc = models.CharField(max_length=250,default='')
 
     class Meta:
         default_related_name = 'artist'

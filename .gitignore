@@ -9,3 +9,5 @@ v1/music/serializers/__pycache__/artist.cpython-36.pyc
 *.pyc
 v1/accounts/migrations/0002_user_date_birth.py
 v1/accounts/models/__pycache__/user.cpython-36.pyc
+v1/accounts/models/__pycache__/user.cpython-36.pyc
+v1/accounts/serializers/__pycache__/user.cpython-36.pyc

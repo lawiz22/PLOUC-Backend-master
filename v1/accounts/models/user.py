@@ -11,6 +11,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     last_name = models.CharField(max_length=255)
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
+    date_birth = models.DateTimeField(default='1973-04-22 22:22:00.000000-05:00')
     objects = UserManager()
 
     USERNAME_FIELD = 'email'

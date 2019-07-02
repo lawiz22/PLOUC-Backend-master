@@ -11,3 +11,11 @@ v1/accounts/migrations/0002_user_date_birth.py
 v1/accounts/models/__pycache__/user.cpython-36.pyc
 v1/accounts/models/__pycache__/user.cpython-36.pyc
 v1/accounts/serializers/__pycache__/user.cpython-36.pyc
+v1/accounts/migrations/0003_auto_20190702_1153.py
+v1/accounts/models/__pycache__/user.cpython-36.pyc
+v1/accounts/serializers/__pycache__/user.cpython-36.pyc
+v1/music/migrations/0004_auto_20190702_1153.py
+v1/music/models/__pycache__/artist.cpython-36.pyc
+v1/music/migrations/0005_auto_20190702_1158.py
+v1/accounts/serializers/__pycache__/user.cpython-36.pyc
+v1/accounts/models/__pycache__/user.cpython-36.pyc

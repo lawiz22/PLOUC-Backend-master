@@ -19,3 +19,5 @@ v1/music/models/__pycache__/artist.cpython-36.pyc
 v1/music/migrations/0005_auto_20190702_1158.py
 v1/accounts/serializers/__pycache__/user.cpython-36.pyc
 v1/accounts/models/__pycache__/user.cpython-36.pyc
+v1/music/migrations/0006_song_date_action.py
+v1/music/models/__pycache__/song.cpython-36.pyc

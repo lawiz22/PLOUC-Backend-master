@@ -1,5 +1,5 @@
 from django.conf import settings
-
+from datetime import datetime  
 from django.db import models
 from v1.music.models.album import Album
 from v1.music.models.artist import Artist
@@ -14,6 +14,7 @@ class Song(CreatedModified):
     song_title = models.CharField(max_length=250)
     song_image = models.ImageField(default='')
     audio_file = models.FileField(default='')
+    date_action = models.DateTimeField(default=datetime.now, blank=True)
     is_favorite = models.BooleanField(default=False)
 
     class Meta:
